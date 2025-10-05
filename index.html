@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Eco Nature Zone — Community Conservation</title>
+  <meta name="description" content="Eco Nature Zone — community-driven habitat restoration, wildlife-friendly gardening and conservation projects." />
+  <meta name="theme-color" content="#2e8b57">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Eco Nature Zone — Community Conservation" />
+  <meta property="og:description" content="Community-driven habitat restoration, wildlife-friendly gardening and conservation projects." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=60" />
+  <meta property="og:url" content="https://example.com/" />
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Eco Nature Zone — Community Conservation" />
+  <meta name="twitter:description" content="Community-driven habitat restoration, wildlife-friendly gardening and conservation projects." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=60" />
+
+  <!-- favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">EN</div>
+        <div>
+          <div style="font-weight:800">Eco Nature Zone</div>
+          <div class="muted" style="font-size:.85rem">Protect • Restore • Enjoy</div>
+        </div>
+      </div>
+
+      <nav>
+        <button class="mobile-toggle" aria-controls="main-menu" aria-expanded="false" title="Toggle menu">☰</button>
+        <ul id="main-menu">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="cta" href="#contact">Join Us</a>
+    </div>
+
+    <div class="mobile-menu container" id="mobile-menu"></div>
+  </header>
+
+  <main class="container">
+
+    <section id="home" class="hero">
+      <div>
+        <div class="badge">New</div>
+        <h1>Welcome to Eco Nature Zone — protect, restore and enjoy nature</h1>
+        <p>We are a community-led initiative focused on habitat restoration, wildlife-friendly gardening, education, and community conservation projects. Explore our projects and get involved.</p>
+        <div class="actions">
+          <a class="cta" href="#projects">See Projects</a>
+          <a href="#about" style="padding:.5rem .9rem;border-radius:10px;background:transparent;border:1px solid rgba(15,23,42,0.06);text-decoration:none;font-weight:700">About Us</a>
+        </div>
+
+        <div class="features">
+          <div class="feature card">
+            <div class="icon" aria-hidden="true">🌱</div>
+            <div>
+              <h4>Habitat Restoration</h4>
+              <p>Native planting, erosion control and riparian rehabilitation that brings ecosystems back to life.</p>
+            </div>
+          </div>
+
+          <div class="feature card">
+            <div class="icon" aria-hidden="true">🦋</div>
+            <div>
+              <h4>Wildlife Support</h4>
+              <p>Pollinator corridors, nest boxes, and safe havens for birds and insects.</p>
+            </div>
+          </div>
+
+          <div class="feature card">
+            <div class="icon" aria-hidden="true">🧭</div>
+            <div>
+              <h4>Community Learning</h4>
+              <p>Workshops, guided walks and citizen science to empower local stewardship.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3 style="margin-top:0">Project Spotlight</h3>
+          <p class="muted">Riverbank native-planting drive — 3 days a week. Volunteers welcome. Tools and training provided.</p>
+
+          <div style="margin-top:1rem">
+            <strong>When</strong>
+            <div class="muted">Every Saturday, 8:30AM — 12:00PM</div>
+          </div>
+
+          <div style="margin-top:1rem;display:flex;gap:.5rem;align-items:center">
+            <button class="cta" id="join-spot">Sign up</button>
+            <button style="padding:.45rem .7rem;border-radius:10px;border:1px solid rgba(15,23,42,0.06);background:transparent">Learn more</button>
+          </div>
+
+          <div class="photo-credit">Photos: community volunteers</div>
+        </div>
+
+        <div style="margin-top:1rem" class="card">
+          <h4 style="margin:0 0 .5rem">Quick facts</h4>
+          <ul style="margin:0;padding-left:1rem;color:var(--muted)">
+            <li>10+ restoration projects</li>
+            <li>1200+ volunteer hours this year</li>
+            <li>50+ species recorded</li>
+          </ul>
+        </div>
+
+      </aside>
+    </section>
+
+    <section id="projects">
+      <h2>Our Projects</h2>
+      <p class="muted">Hands-on local conservation and nature-friendly initiatives you can join.</p>
+
+      <div class="grid-two" style="margin-top:1rem">
+        <div class="card">
+          <h3>Urban Pollinator Corridor</h3>
+          <p class="muted">Transforming roadside verges and pocket parks into pollinator-rich habitats with native wildflowers.</p>
+          <div style="margin-top:1rem"><button class="cta">Get involved</button></div>
+        </div>
+        <div class="card">
+          <h3>Riparian Revival</h3>
+          <p class="muted">Stabilising riverbanks using native shrubs and live fascines to improve water quality and biodiversity.</p>
+        </div>
+      </div>
+
+      <h3 style="margin-top:1.25rem">Gallery</h3>
+      <div class="gallery" id="gallery">
+        <img data-src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60" alt="wildflowers" loading="lazy">
+        <img data-src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60" alt="butterfly" loading="lazy">
+        <img data-src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=60" alt="riverbank" loading="lazy">
+        <img data-src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=60" alt="volunteers planting" loading="lazy">
+      </div>
+
+    </section>
+
+    <section id="about" class="about">
+      <div class="card">
+        <h2>About Us</h2>
+        <p class="muted">Eco Nature Zone started as a neighbourhood group and has grown into a volunteer-powered organisation restoring urban and peri-urban natural areas. We work with local councils, schools and property owners.</p>
+        <p>We believe small actions create big change. Join us to learn practical restoration skills and meet like-minded nature-lovers.</p>
+      </div>
+
+      <div class="card">
+        <h3>How you can help</h3>
+        <ul class="muted">
+          <li>Volunteer on planting days</li>
+          <li>Run or join a workshop</li>
+          <li>Host a citizen science webcam</li>
+          <li>Donate to our habitat fund</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="blog">
+      <h2>Latest from the field</h2>
+      <div class="posts">
+        <article class="post card">
+          <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=60" alt="post-1">
+          <div class="meta">
+            <div class="muted">Sep 18, 2025 • 4 min read</div>
+            <h4 style="margin:.5rem 0 0">Planting for Pollinators: What Worked</h4>
+            <p class="muted" style="margin-top:.5rem">Our summer planting trial showed a 40% increase in pollinator visits around the site. Practical tips inside.</p>
+          </div>
+        </article>
+
+        <article class="post card">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=60" alt="post-2">
+          <div class="meta">
+            <div class="muted">Aug 2, 2025 • 3 min read</div>
+            <h4 style="margin:.5rem 0 0">Volunteer Story: The Riverbank Team</h4>
+            <p class="muted" style="margin-top:.5rem">Meet a group of volunteers who helped stabilise an eroding bank on a tight budget.</p>
+          </div>
+        </article>
+
+        <article class="post card">
+          <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=60" alt="post-3">
+          <div class="meta">
+            <div class="muted">Jun 15, 2025 • 6 min read</div>
+            <h4 style="margin:.5rem 0 0">Creating a Pocket Meadow</h4>
+            <p class="muted" style="margin-top:.5rem">How to convert a lawn into a seasonal meadow that supports insects and birds.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:2rem">
+      <h2>Contact & Volunteer</h2>
+      <div class="grid-two">
+        <div class="card">
+          <form id="contact-form" novalidate>
+            <div style="margin-bottom:.75rem">
+              <label for="name">Name</label>
+              <input id="name" name="name" required placeholder="Your full name">
+            </div>
+            <div style="margin-bottom:.75rem">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required placeholder="you@example.com">
+            </div>
+            <div style="margin-bottom:.75rem">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us how you'd like to help"></textarea>
+            </div>
+            <div style="display:flex;gap:.5rem;align-items:center">
+              <button class="cta" type="submit">Send</button>
+              <button type="button" style="padding:.45rem .7rem;border-radius:10px;border:1px solid rgba(15,23,42,0.06);background:transparent">Reset</button>
+            </div>
+            <div id="form-msg" class="muted" style="margin-top:.6rem"></div>
+          </form>
+        </div>
+
+        <div class="card">
+          <h3>Visit us</h3>
+          <p class="muted">We run weekend events across multiple sites. Subscribe for the monthly schedule and directions.</p>
+          <div style="margin-top:1rem">📧 hello@econature.zone</div>
+          <div style="margin-top:1rem">📍 Nairobi / Region (example)</div>
+
+          <h4 style="margin-top:1rem">Subscribe</h4>
+          <div style="display:flex;gap:.5rem;margin-top:.5rem">
+            <input id="sub-email" placeholder="Email address">
+            <button id="sub-btn" class="cta">Subscribe</button>
+          </div>
+          <div id="sub-msg" class="muted" style="margin-top:.5rem"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
+        <div>© Eco Nature Zone — <span class="muted">Made with ❤️ for green spaces</span></div>
+        <div class="muted">Follow us: Twitter · Instagram · Facebook</div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- image modal -->
+  <div class="modal" id="modal">
+    <div class="inner">
+      <button id="modal-close" style="float:right;border:0;background:transparent;font-size:1.2rem">✕</button>
+      <img id="modal-img" src="" alt="" style="width:100%;max-height:70vh;object-fit:contain;border-radius:8px">
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="app.js" defer></script>
+</body>
+</html>
